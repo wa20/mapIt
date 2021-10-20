@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 mongoose.connect(
   process.env.MONGODB_URI || 
-  'mongodb://localhost/waelportfolio', {
+  'mongodb://localhost/mapIt', {
 
   useNewUrlParser: true,
   useUnifiedTopology: true,
